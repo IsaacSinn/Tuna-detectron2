@@ -7,7 +7,7 @@ RUN apt-get -y install nano git build-essential libglib2.0-0 libsm6 libxext6 lib
 
 # Detectron2 prerequisites
 # RUN pip install pytorch==1.9.0 torchvision==0.10.0 torchaudio cudatoolkit=11.1 -c pytorch
-RUN pip install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio==0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.htm
+RUN pip install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio==0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 
 
 
